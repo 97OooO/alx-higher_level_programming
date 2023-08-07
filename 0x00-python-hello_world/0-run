@@ -5,7 +5,7 @@ if [ -z "$PYFILE" ]; then
 	exit 1
 fi
 
-if [ ! -f "$PYFILE"]; then
+if [ ! -f "$PYFILE" ]; then
 	echo "Error: File not found: $PYFILE"
 	exit 1
 fi
